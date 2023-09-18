@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Montserrat:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <title>Сайт для стоматологии</title>
+</head>
+
+<body>
+    <section class="hero_section">
+        <header class="hero_header">
+            <nav class="hero_nav">
+                <div class="nav_info">
+                    <a href="#" class="info_company">
+                        <img src="assets/img/logo.png" alt="Логотип компании" class="company-logo">
+                        <div class="company_name company_box">
+                            <span class="company_name">Название компании</span>
+                            <span class="nav_sub">Сайт стоматологических услуг</span>
+                        </div>
+                    </a>
+                    <div class="info_about">
+                        <div class="about_time">
+                            <span class="nav_sub">Режим работы:</span>
+                            <span class="about_time nav_descr">Ежедневно с 9:00 до 20:00</span>
+                        </div>
+                        <div class="about_contacts">
+                            <div class="about_phone">
+                                <span class="nav_sub">Контактный центр:</span>
+                                <a href="tel:+88008888888" class="nav_phone nav_descr">8 (800) 888-88-88</a>
+                            </div>
+                            <button class="nav_more-btn">еще</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_services">
+                    <button class="mobile-burger">
+                        <div class="mobile-burger_line"></div>
+                    </button>
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#" class="services_link">Главная</a></li>
+                        <li class="nav_item"><a href="#" class="services_link"><span>Услуги</span><svg
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="chevron-arrow w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </a>
+                            <ul class="hidden_list">
+                                <li class="hidden_item"><a href="#" class="hidden_link">Лечение зубов</a></li>
+                                <li class="hidden_item"><a href="#" class="hidden_link">Имплантация зубов</a></li>
+                                <li class="hidden_item"><a href="#" class="hidden_link">Протезирование зубов</a></li>
+                                <li class="hidden_item"><a href="#" class="hidden_link">Керамические виниры</a></li>
+                                <li class="hidden_item"><a href="#" class="hidden_link">Исправление прикуса</a></li>
+                                <li class="hidden_item"><a href="#" class="hidden_link">Отбеливание зубов</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item"><a href="#" class="services_link">Цены</a></li>
+                        <li class="nav_item"><a href="#" class="services_link"><span>Акции</span><svg
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="chevron-arrow w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg></a>
+                            <ul class="hidden_list">
+                                <li class="hidden_item"><a href="#" class="hidden_link">Акция "Профессиональная гигиена
+                                        полости рта"</a></li>
+                                <li class="hidden_item"><a href="#" class="hidden_link">Акция "Первый шаг на пути к
+                                        имплантации"</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item"><a href="#" class="services_link">О компании</a></li>
+                        <li class="nav_item">
+                            <div class="burger_icon">
+                                <span class="burger_line"></span>
+                            </div>
+                            <ul class="hidden_list">
+                                <li class="nav_item"><a href="#" class="hidden_link">Новости</a></li>
+                                <li class="nav_item"><a href="#" class="hidden_link">Отзывы о нас</a></li>
+                                <li class="nav_item"><a href="#" class="hidden_link">Контакты</a></li>
+                                <li class="nav_item"><a href="#" class="hidden_link">Регистрация</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button class="booking-btn">Записаться на прием</button>
+                </div>
+            </nav>
+        </header>
+        <h1 class="heading-primary">Стоматологические услуги лечения зубов по низким ценам</h1>
+    </section>
+    <main>
+        <section class="services_section container">
+            <h2 class="heading-secondary">Стоматология для всей семьи</h2>
+            <ul class="services_list">
+                <li class="services_item">
+                    <a href="#">
+                        <div class="service_text-box">
+                            <h3 class="heading-tertiary">Лечение зубов</h3>
+                            <p class="service_descr">Лечение кариеса любой сложности, а также его осложнений: пульпита и
+                                периодонтита</p>
+                        </div>
+                        <div class="service_img-box">
+                            <div></div>
+                            <img src="assets/svg/treatment.svg" alt="Описание услуги" class="service_img">
+                        </div>
+                    </a>
+                </li>
+                <li class="services_item">
+                    <a href="#">
+                        <div class="service_text-box">
+                            <h3 class="heading-tertiary">Имплантация зубов</h3>
+                            <p class="service_descr">Современный метод восстановления зубного ряда при полном их
+                                отсутствии</p>
+                        </div>
+                        <div class="service_img-box">
+                            <div></div>
+                            <img src="assets/svg/implant.svg" alt="Описание услуги" class="service_img">
+                        </div>
+                    </a>
+                </li>
+                <li class="services_item">
+                    <a href="#">
+                        <div class="service_text-box">
+                            <h3 class="heading-tertiary">Протезирование зубов</h3>
+                            <p class="service_descr">Вживление протезов с целью восстановления или замены зубного ряда
+                            </p>
+                        </div>
+                        <div class="service_img-box">
+                            <div></div>
+                            <img src="assets/svg/teeth.svg" alt="Описание услуги" class="service_img">
+                        </div>
+                    </a>
+                </li>
+                <li class="services_item">
+                    <a href="#">
+                        <div class="service_text-box">
+                            <h3 class="heading-tertiary">Керамические виниры</h3>
+                            <p class="service_descr">Микропротезы для восстановления формы зуба и изменения его цвета
+                            </p>
+                        </div>
+                        <div class="service_img-box">
+                            <div></div>
+                            <img src="assets/svg/veneer.svg" alt="Описание услуги" class="service_img">
+                        </div>
+                    </a>
+                </li>
+                <li class="services_item">
+                    <a href="#">
+                        <div class="service_text-box">
+                            <h3 class="heading-tertiary">Исправление прикуса</h3>
+                            <p class="service_descr">Cамый распространенный способ исправления прикуса – ношение
+                                брекет-систем</p>
+                        </div>
+                        <div class="service_img-box">
+                            <div></div>
+                            <img src="assets/svg/braces.svg" alt="Описание услуги" class="service_img">
+                        </div>
+                    </a>
+                </li>
+                <li class="services_item">
+                    <a href="#">
+                        <div class="service_text-box">
+                            <h3 class="heading-tertiary">Отбеливание зубов</h3>
+                            <p class="service_descr">Стоматологическая процедура изменения оттенка зубной эмали</p>
+                        </div>
+                        <div class="service_img-box">
+                            <div></div>
+                            <img src="assets/svg/brush.svg" alt="Описание услуги" class="service_img">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="pricing_section container">
+            <img src="assets/img/pricing-img.jpg" alt="Женщина с яблоком" class="pricing_img">
+            <div class="pricing_text-box">
+                <h2 class="heading-secondary">Стоимость услуг</h2>
+                <span class="subheading">Цены, размещенные на сайте, не являются публичной офертой</span>
+                <ul class="pricing_list">
+                    <li class="pricing_item">
+                        <h3 class="heading-tertiary pricing_heading-tertiary">Консультация</h3>
+                        <ul class="pricing_sublist">
+                            <li class="sublist_item"><span class="service_name">Консультация врача-стоматолога</span>
+                                <div></div><span class="service_price">Бесплатно</span>
+                            </li>
+                            <li class="sublist_item"><span class="service_name">Консультация врача-ортодонта</span>
+                                <div></div><span class="service_price">1 000 руб.</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="pricing_item">
+                        <h3 class="heading-tertiary pricing_heading-tertiary">Лечение кариеса</h3>
+                        <ul class="pricing_sublist">
+                            <li class="sublist_item"><span class="service_name">Световая пломба</span>
+                                <div></div><span class="service_price">2 700 руб.</span>
+                            </li>
+                            <li class="sublist_item"><span class="service_name">Химическая пломба</span>
+                                <div></div><span class="service_price">1 700 руб.</span>
+                            </li>
+                            <li class="sublist_item"><span class="service_name">Полировка пломбы</span>
+                                <div></div><span class="service_price">400 руб.</span>
+                            </li>
+                            <li class="sublist_item"><span class="service_name">Реставрация передних зубов</span>
+                                <div></div><span class="service_price">6 500 руб.</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="pricing_item">
+                        <h3 class="heading-tertiary pricing_heading-tertiary">Отбеливание зубов</h3>
+                        <ul class="pricing_sublist">
+                            <li class="sublist_item"><span class="service_name">Ультразвуковая чистка всех зубов</span>
+                                <div></div><span class="service_price">2 200 руб.</span>
+                            </li>
+                            <li class="sublist_item"><span class="service_name">Реминерализирующая терапия ( 1
+                                    челюсть)</span>
+                                <div></div><span class="service_price">1 700 руб.</span>
+                            </li>
+                            <li class="sublist_item"><span class="service_name">Глубокое фторирование эмали и дентина, 1
+                                    зуб</span>
+                                <div></div><span class="service_price">400 руб.</span>
+                            </li>
+                            <li class="sublist_item"><span class="service_name">Полировка пастой всех зубов</span>
+                                <div></div><span class="service_price">4 500 руб.</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="#" class="view-more_btn">смотреть все цены</a>
+            </div>
+        </section>
+        <section class="offers_section">
+            <div class="container">
+                <h2 class="heading-secondary">Приглашаем вас ознакомиться с нашими акциями и спецпредложениями</h2>
+                <p class="subheading">Здесь представлены актуальные на текущий момент скидки и постоянные выгодные
+                    предложения</p>
+                <ul class="offers_list">
+                    <li class="offers_item">
+                        <div class="offers_text-box">
+                            <div>
+                                <span class="offers_date">До 22 ноября 2022 года*</span>
+                                <h3 class="offers_heading-tertiary">Акция "Профессиональная гигиена полости рта"</h3>
+                            </div>
+                            <a href="#" class="view-more_btn">подробнее об акции</a>
+                        </div>
+                        <div class="offers_imagefit">
+                            <img src="assets/img/offers-img1.jpg" alt="Акция" class="offers_img">
+                        </div>
+                    </li>
+                    <li class="offers_item">
+                        <div class="offers_text-box">
+                            <div>
+                                <span class="offers_date">До 12 марта 2023 года*</span>
+                                <h3 class="offers_heading-tertiary">Акция "Первый шаг на пути к имплантации"</h3>
+                            </div>
+                            <a href="#" class="view-more_btn">подробнее об акции</a>
+                        </div>
+                        <div class="offers_imagefit">
+                            <img src="assets/img/offers-img2.jpg" alt="Акция" class="offers_img">
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" class="view-more_btn">смотреть все акции</a>
+            </div>
+        </section>
+        <section class="description_section container">
+            <div class="description_box">
+                <img src="assets/img/description-img.jpg" alt="Врачи клиники" class="description_img">
+                <div class="description_text-box">
+                    <h2 class="heading-secondary">В клинике доступны все виды стоматологического лечения</h2>
+                    <p class="subheading">Не откладывайте поход к стоматологу и мы поможем Вам убедиться, что бояться
+                        нечего. К Вашим услугам:</p>
+                    <ul class="description_list">
+                        <li class="description_item">
+                            <img src="assets/svg/check.svg" class="checkmark">
+                            <p>Квалифицированные специалисты смогут справиться с проблемами любой категории сложности;
+                            </p>
+                        </li>
+                        <li class="description_item">
+                            <img src="assets/svg/check.svg" class="checkmark">
+                            <p>Современная аппаратура и собственная зуботехническая лаборатория позволят выполнить
+                                высокоточные работы в кратчайшие сроки;</p>
+                        </li>
+                        <li class="description_item">
+                            <img src="assets/svg/check.svg" class="checkmark">
+                            <p>Индивидуальный подход к каждому пациенту гарантирует комфортные условия лечения без боли
+                                и
+                                страха;</p>
+                        </li>
+                        <li class="description_item">
+                            <img src="assets/svg/check.svg" class="checkmark">
+                            <p>Для помощи нашим маленьким пациентам в клинике работает детский врач.</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="view-more_btn">читать подробнее</a>
+                </div>
+            </div>
+            <div class="description_features">
+                <div class="features_item">
+                    <div class="feature">
+                        12<span>лет</span>
+                    </div>
+                    <p>лет эффективной работы в стоматологии</p>
+                </div>
+                <div class="features_item">
+                    <div class="feature">
+                        40<span>+</span>
+                    </div>
+                    <p>высококвалифицированных специалистов</p>
+                </div>
+                <div class="features_item">
+                    <div class="feature">
+                        6200<span>+</span>
+                    </div>
+                    <p>принято пациентов за год</p>
+                </div>
+            </div>
+        </section>
+        <section class="blog_section">
+            <div class="container">
+                <div class="blog_top">
+                    <h2 class="heading-secondary">Блог о здоровье</h2>
+                    <a href="#" class="view-more_btn">читать все статьи</a>
+                </div>
+                <div class="blog_articles">
+                    <ul class="blog_list">
+                        <li class="blog_item">
+                            <div class="blog_text-box">
+                                <div>
+                                    <span class="blog_date">14 мар, 2022</span>
+                                    <h3 class="blog_heading-tertiary"><a href="#" class="blog_link">Какое протезирование
+                                            зубов выбрать?</a></h3>
+                                </div>
+                                <a href="#" class="view-more_btn">читать статью</a>
+                            </div>
+                            <div class="blog_imagefit">
+                                <img src="assets/img/blog-img1.jpg" alt="Какое протезирование зубов выбрать?"
+                                    class="blog_img">
+                            </div>
+                        </li>
+                        <li class="blog_item">
+                            <div class="blog_text-box">
+                                <div>
+                                    <span class="blog_date">3 мар, 2022</span>
+                                    <h3 class="blog_heading-tertiary"><a href="#" class="blog_link">Что нельзя делать
+                                            после
+                                            имплантации зубов?</a></h3>
+                                </div>
+                                <a href="#" class="view-more_btn">читать статью</a>
+                            </div>
+                            <div class="blog_imagefit">
+                                <img src="assets/img/blog-img2.jpg" alt="Акция" class="blog_img">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials_section container">
+            <div class="testimonials_heading-box">
+                <h2 class="heading-secondary">Отзывы о нашей работе и наших юристах</h2>
+                <p class="subheading">Мы ценим каждый отзыв клиентов!</p>
+            </div>
+            <div class="testimonials_box">
+                <div class="testimonials_item">
+                    <div class="testimonial">
+                        <h3 class="heading-tertiary">Лечимся всей семьей, Молодцы!</h3>
+                        <p class="testimonial_text">Замечательный коллектив, работают квалифицированные врачи.
+                            Оказывают
+                            качественные услуги, в общем я довольна их работой. Приходите, не пожалеете. Лечимся
+                            всей
+                            семьей, Молодцы!</p>
+                    </div>
+                    <div class="reviewer">
+                        <img src="assets/img/testimonials-img1.jpg" alt="Наш клиент" class="reviewer_img">
+                        <div class="reviewer_info">
+                            <span class="reviewer_name">Морозова Екатерина</span>
+                            <span class="reviewer_company">Директор компании ООО «Business group»</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials_item">
+                    <div class="testimonial">
+                        <h3 class="heading-tertiary">Приятно удивлен специалистами и их работой</h3>
+                        <p class="testimonial_text">Побывал в этой клинике по совету хороших товарищей. Скажу
+                            честно,
+                            приятно удивлен специалистами и их работой, неплохой обстановкой, а также приемлемой, на
+                            наше время, ценой.</p>
+                    </div>
+                    <div class="reviewer">
+                        <img src="assets/img/testimonials-img2.jpg" alt="Наш клиент" class="reviewer_img">
+                        <div class="reviewer_info">
+                            <span class="reviewer_name">Петров Михаил</span>
+                            <span class="reviewer_company">Директор компании ООО «Antarctica»</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="view-more_btn">оставить отзыв</a>
+        </section>
+    </main>
+    <footer>
+        <div class="top">
+            <div class="container">
+                <address class="contact_info">
+                    <h2 class="footer_heading">Контактная информация</h2>
+                    <div class="contact_phone">
+                        <h3 class="contact_heading">Звоните по номеру:</h3>
+                        <a href="tel:+88008888888" class="footer_phone">
+                            <span>8 (800) 888-88-88</span>
+                            <span class="phone_descr">WhatsApp, Telegram</span>
+                        </a>
+                    </div>
+                    <div class="contact_mail">
+                        <h3 class="contact_heading">Для писем и предложений</h3>
+                        <a href="mailto:test@example.com" class="footer_mail">test@example.com</a>
+                    </div>
+                    <div class="contact_address">
+                        <h3 class="contact_heading">Мы находимся по адресу:</h3>
+                        <span class="footer_address">г. Москва, Ленинский проспект, дом, строение, номер кабинета</span>
+                    </div>
+                </address>
+                <div class="feedback_form">
+                    <h2 class="leave-feedback">Оставьте заявку на бесплатную консультацию</h2>
+                    <span class="subheading">и наши специалисты свяжутся с Вами в самое ближайшее время</span>
+                    <form class="footer_form" action="#" method="get">
+                        <div class="name-phone-input">
+                            <input type="text" name="name" id="name" placeholder="Ваше имя">
+                            <input type="tel" name="phone" id="phone" placeholder="Ваш номер телефона *">
+                        </div>
+                        <div class="data-processing_check">
+                            <input type="checkbox" name="personal-data-processing" id="footer_checkbox">
+                            <label class='data-processing_disclaimer' for="personal-data-processing">Я согласен(а) с
+                                обработкой персональных данных и <a href="#" class="data-processing_link">политикой
+                                    конфиденциальности</a></label>
+                        </div>
+                        <input type="submit" value="Оставить заявку">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="container">
+                <div class="social-links_box">
+                    <span>Мы в социальных сетях:</span>
+                    <div class="social_links">
+                        <a href="https://www.whatsapp.com/"><img class="social_link" src="assets/svg/whatsapp.svg"
+                                alt="WhatsApp Link"></a>
+                        <a href="https://www.viber.com/"><img class="social_link" src="assets/svg/viber.svg"
+                                alt="Viber Link"></a>
+                        <a href="https://telegram.org/"><img class="social_link" src="assets/svg/telegram.svg"
+                                alt="Telegram Link"></a>
+                        <a href="https://vk.com/"><img class="social_link" src="assets/svg/vk.svg" alt="VK Link"></a>
+                    </div>
+                </div>
+                <div class="mid-box">
+                    <span class="disclaimer">Все материалы, находящиеся на сайте, охраняются в соответствии с
+                        законодательством, в том числе, об авторском праве и смежных правах</span>
+                    <btn class="back-to-top_btn"><svg class='back-to-top_icon' xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M4.5 10.5L12 3m0 0l7.5 7.5M12 3v18" />
+                        </svg>
+                    </btn>
+                </div>
+            </div>
+        </div>
+        <div class="bot">
+            <div class="container">
+                <div class="copyright">Copyright &copy; 2022 - 2023 Название компании</div>
+                <div class="mega_copyright">Поддержка. <a href="https://megagroup.ru/?roistat_visit=26850148"
+                        class="mega_link">Разработка сайтов</a> в Megagroup.</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
